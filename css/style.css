@@ -1,3 +1,18 @@
 body{
-	background: #bbb;
+	background: #FF6767;
+}
+
+a {
+    color: #fff;
+}
+
+li {
+    display: inline-block;
+    margin: .5rem;
+}
+
+li::before {
+    content: "|";
+    margin: 1rem;
+    margin-left: .5rem;
 }
